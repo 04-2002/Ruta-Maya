@@ -12,7 +12,7 @@ function App() {
       <img src={tren}  className="card-img-top" alt="Card image cap" />
       <div className="card-body">
         <h1 className="card-title">RUTA MAYA</h1>
-        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p className="card-text">NUEVO CRECIMIENTO Y FUTURO EN TURISMO.</p>
       </div>
     </div>
     <div className="d-flex justify-content-center">
