@@ -12,7 +12,7 @@ function App() {
       <img src={tren}  className="card-img-top" alt="Card image cap" />
       <div className="card-body">
         <h1 className="card-title">RUTA MAYA</h1>
-        <p className="card-text">NUEVO CRECIMIENTO Y FUTURO EN TURISMO.</p>
+        <p className="card-text">La ruta del Tren Maya recorre cinco estados del sureste de México en donde se ubican 21 estaciones y 14 paraderos.</p>
       </div>
     </div>
     <div className="d-flex justify-content-center">
@@ -20,22 +20,22 @@ function App() {
         <img src=".." className="card-img-top" alt="..." />
         <div className="card-body">
           <h2  align= "center" className="card-title">Estación 1</h2>
-          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p className="card-text">LUEGO PENSAMOS QUE PONER.</p>
           <div class="d-grid gap-2">
-            <button class="btn btn-primary" type="button">Tramo 1</button>
-            <button class="btn btn-primary" type="button">Tramo 2</button>
-            <button class="btn btn-primary" type="button">Tramo 3</button>
+            <button class="btn btn-primary" type="button">PALENQUE, CHIAPAS</button>
+            <button class="btn btn-primary" type="button">BOCA DEL CERRO, TABASCO</button>
+            <button class="btn btn-primary" type="button">EL TRIUNFO, TABASCO</button>
          </div>
         </div>
       </div><div className="card" style={style}>
         <img src=".." className="card-img-top" alt="..." />
         <div className="card-body">
           <h2  align= "center" className="card-title">Estación 2</h2>
-          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p className="card-text">LECHE PAPU.</p>
           <div class="d-grid gap-2">
-            <button class="btn btn-primary" type="button">Tramo 1</button>
-            <button class="btn btn-primary" type="button">Tramo 2</button>
-            <button class="btn btn-primary" type="button">Tramo 3</button>
+            <button class="btn btn-primary" type="button">ESCARCEGA, CAMPECHE</button>
+            <button class="btn btn-primary" type="button">EDZNA, CAMPECHE</button>
+            <button class="btn btn-primary" type="button">SAN FRANCISCO DE CAMPECHE, CAMPECHE</button>
          </div>
         </div>
       </div>
@@ -43,11 +43,11 @@ function App() {
         <img src=".." className="card-img-top" alt="..." />
         <div className="card-body">
           <h2 align= "center" className="card-title">Estación 3</h2>
-          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p className="card-text">NARCISO COME TULA.</p>
           <div class="d-grid gap-2">
-            <button class="btn btn-primary" type="button">Tramo 1</button>
-            <button class="btn btn-primary" type="button">Tramo 2</button>
-            <button class="btn btn-primary" type="button">Tramo 3</button>
+            <button class="btn btn-primary" type="button">MERIDA AEROPUERTO, YUCATAN</button>
+            <button class="btn btn-primary" type="button">TEYA, YUCATAN</button>
+            <button class="btn btn-primary" type="button">IZAMAL, YUCATAN</button>
          </div>
         </div>
       </div></div></>
