@@ -9,7 +9,9 @@ function App() {
 
   return (
     <><div align="center" className="card" bg="green">
-      <img src={tren}  className="card-img-top" alt="Card image cap" />
+      <div className="app-img-inicio">
+      <img src={tren}  className="card-img-top"  alt="Card image cap" />
+      </div>
       <div className="card-body">
         <h1 className="card-title">RUTA MAYA</h1>
         <p className="card-text">La ruta del Tren Maya recorre cinco estados del sureste de México en donde se ubican 21 estaciones y 14 paraderos.</p>
