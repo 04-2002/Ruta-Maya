@@ -5,7 +5,7 @@ import tren3 from "../img/tren3.png";
 
 function Contenido() {
   return (
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div className="Content-App row row-cols-1 row-cols-md-3 g-4 container-fluid">
       <div class="col">
         <div class="card h-100">
           <img src={tren1} className="card-img-top shadow" alt="..." />

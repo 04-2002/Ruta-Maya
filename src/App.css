@@ -1,3 +1,7 @@
 .Encabezado-App {
-  height: 70px;
+  height: 90px;
+}
+
+.Content-App {
+  margin-top: 70px;
 }
