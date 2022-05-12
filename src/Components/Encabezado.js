@@ -1,13 +1,23 @@
 import React from "react";
-import Banner from "../img/Banner_Tren_Maya2.png";
+import trenmaya from "../img/trenmaya.jpg";
 
 function Encabezado() {
   return (
-    <div className="container-fluid">
-      <img src={Banner} className="img-fluid" alt="..." />
-
-      <div className="text-center fs-1">la ruta maya</div>
-      <div className="container-fluid text-center fst-italic">perre vergue</div>
+    <div className="Encabezado-App row ">
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src={trenmaya}
+              alt=""
+              width="200"
+              height="200"
+              class="d-inline-block align-text-top"
+            />
+            LA RUTA MAYA
+          </a>
+        </div>
+      </nav>
     </div>
   );
 }
