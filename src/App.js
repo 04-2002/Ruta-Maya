@@ -1,25 +1,16 @@
-
-import './App.css';
-import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import tren from "./img/tren-maya (1).png" 
-import Vistas from './Components/Vistas';
-import Inicio from "./Paginas/Inicio"
-import { Fragment } from 'react';
+import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Inicio from "./Paginas/Inicio";
+import { Fragment } from "react";
+import Estación1 from "./Paginas/Estacion1";
+import Rutas from "./Routes/Rutas";
+import Encabezado from "./Components/Encabezado";
 
 function App() {
-  return(
+  return (
     <Fragment>
-    <Router>
-      <Routes>
-        <Route path='/' element ={<Inicio/>}/>
-        <Route path='/about' element ={<div>about</div>}/>
-      </Routes>
-    </Router>  
-  
-  
+      <Inicio />
     </Fragment>
-  
   );
-  
 }
 export default App;
