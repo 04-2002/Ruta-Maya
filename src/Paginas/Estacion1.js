@@ -1,11 +1,7 @@
-function Estación1() {
-    
+import Inicio from "./Inicio";
 
-    return (
-        <div>
-            Eso tilin
-        </div>
-    )
+function Estación1() {
+  return <div>ESTACION 1</div>;
 }
 
 export default Estación1;
