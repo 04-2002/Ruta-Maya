@@ -1,7 +1,10 @@
 .Encabezado-App {
-  height: 90px;
+  height: 70px;
 }
 
 .Content-App {
-  margin-top: 70px;
+  margin-top: 10px;
+}
+.Ruta {
+  font-family: "Macondo";
 }
