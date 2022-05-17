@@ -4,11 +4,6 @@ import tren1 from "../img/tren1.png";
 import tren2 from "../img/tren2.png";
 import tren3 from "../img/tren3.png";
 import Estación1 from "../Paginas/Estacion1";
-import Estacion2 from "../Paginas/Estacion2";
-import Estacion3 from "../Paginas/Estacion3";
-import Estacion4 from "../Paginas/Estacion4";
-import Estacion5 from "../Paginas/Estacion5";
-import Estacion6 from "../Paginas/Estacion6";
 
 function Contenido() {
   return (
@@ -30,12 +25,12 @@ function Contenido() {
               </li>
               <li>
                 <NavLink to="/2">
-                  <Estacion2 />
+                  <Estación1 />
                 </NavLink>
               </li>
               <li>
                 <NavLink to="/3">
-                  <Estacion3 />
+                  <Estación1 />
                 </NavLink>
               </li>
             </ul>
@@ -54,18 +49,16 @@ function Contenido() {
             </p>
             <ul>
               <li>
-                <NavLink to="/4">
-                  <Estacion4 />
-                </NavLink>
+                <NavLink to="/4">el triunfo</NavLink>
               </li>
               <li>
                 <NavLink to="/5">
-                  <Estacion5 />
+                  <Estación1 />
                 </NavLink>
               </li>
               <li>
                 <NavLink to="/6">
-                  <Estacion6 />
+                  <Estación1 />
                 </NavLink>
               </li>
             </ul>

@@ -1,11 +1,7 @@
-import Inicio from "./Inicio";
+import Encabezado from "../Components/Encabezado";
 
 function Estación1() {
-  return (
-    <div>
-      <h4>PALENQUE, CHIAPAS</h4>
-    </div>
-  );
+  return <div>ggg</div>;
 }
 
 export default Estación1;
