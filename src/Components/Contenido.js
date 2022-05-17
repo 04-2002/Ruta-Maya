@@ -1,9 +1,8 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import tren1 from "../img/tren1.png";
 import tren2 from "../img/tren2.png";
 import tren3 from "../img/tren3.png";
-import Estación1 from "../Paginas/Estacion1";
 
 function Contenido() {
   return (
@@ -17,23 +16,29 @@ function Contenido() {
               La ruta del Tren Maya recorre cinco estados del sureste de México
               en donde se ubican 21 estaciones y 14 paraderos.
             </p>
-            <ul>
-              <li>
-                <NavLink to="/1">
-                  <Estación1 />
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/2">
-                  <Estación1 />
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/3">
-                  <Estación1 />
-                </NavLink>
-              </li>
-            </ul>
+            <div class="d-grid gap-2">
+              <Link
+                class="btn btn-primary text-start"
+                role="button"
+                to="/estacion1"
+              >
+                PALENQUE, CHIAPAS
+              </Link>
+              <Link
+                class="btn btn-primary text-start"
+                role="button"
+                to="/estacion1"
+              >
+                BOCA DEL CERRO, TABASCO
+              </Link>
+              <Link
+                class="btn btn-primary text-start"
+                role="button"
+                to="/estacion1"
+              >
+                TRIUNFO, TABASCO
+              </Link>
+            </div>
           </div>
         </div>
       </div>
@@ -47,21 +52,29 @@ function Contenido() {
               venta de sus productos y sus servicios, impulsando el Turismo
               Comunitario.
             </p>
-            <ul>
-              <li>
-                <NavLink to="/4">el triunfo</NavLink>
-              </li>
-              <li>
-                <NavLink to="/5">
-                  <Estación1 />
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/6">
-                  <Estación1 />
-                </NavLink>
-              </li>
-            </ul>
+            <div class="d-grid gap-2">
+              <Link
+                class="btn btn-primary text-start"
+                role="button"
+                to="/estacion1"
+              >
+                PALENQUE, CHIAPAS
+              </Link>
+              <Link
+                class="btn btn-primary text-start"
+                role="button"
+                to="/estacion1"
+              >
+                BOCA DEL CERRO, TABASCO
+              </Link>
+              <Link
+                class="btn btn-primary text-start"
+                role="button"
+                to="/estacion1"
+              >
+                TRIUNFO, TABASCO
+              </Link>
+            </div>
           </div>
         </div>
       </div>
