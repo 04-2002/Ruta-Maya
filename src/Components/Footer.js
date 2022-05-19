@@ -1,7 +1,7 @@
 import React from "react";
 
 function Footer() {
-  return <div>Desarollado por jose luis cabrera aguirre</div>;
+  return <div>LARUTAMAYA_@gmail.com</div>;
 }
 
 export default Footer;

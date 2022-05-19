@@ -12,7 +12,7 @@ function Rutas() {
         <Layout>
           <Routes>
             <Route path="/" element={<Inicio />} />
-            <Route exact path="/estacion/:estacion" element={<Estación1 />} />
+            <Route path="/estacion/:estacion" element={<Estación1 />} />
             <Route path="/*" element={<NotFound />} />
           </Routes>
         </Layout>
