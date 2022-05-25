@@ -1,6 +1,5 @@
 import { Fragment, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import Prueba from "../img/tren1.png";
 import axios from "../Servicios/Axios";
 
 import CardsLugares from "../Components/CardsLugares";
@@ -33,7 +32,7 @@ function Estación1() {
             </div>
             <div class="col-8">
               <div class="card-body">
-                <h5 class="card-title text-center">
+                <h5 class="Ruta card-title text-center">
                   Estacion {dataEstacion.estacion}
                 </h5>
                 <div class="card-text row">

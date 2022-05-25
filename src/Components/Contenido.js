@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from "react";
 /* import React{useState, useEffect} from "react"; */
-import tren1 from "../img/tren1.png";
-import tren2 from "../img/tren2.png";
-import tren3 from "../img/tren3.png";
 import Cards from "./Cards";
 import { BotonesEstaciones } from "./BtnRedireccion";
 import axios from "../Servicios/Axios";

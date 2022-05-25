@@ -12,3 +12,17 @@
   color: #a69121;
   line-height: -50%;
 }
+
+.Type {
+  font-family: "Macondo";
+  font-size: 2rem;
+  color: #000000;
+  line-height: -50%;
+}
+
+.Letter {
+  font-family: "Macondo";
+  font-size: 1rem;
+  color: #a69121;
+  line-height: -50%;
+}
